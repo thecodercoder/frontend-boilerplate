@@ -6,7 +6,7 @@ I wanted to share my own boilerplate that I use for simple front-end websites th
 
 I also wrote a rather detailed walkthrough on how to get up and running with Gulp 4, as well as migration tips from Gulp 3. 
 
-You can read that on my blog [here](https://coder-coder.com/?p=1528).
+You can read that on my blog [here](https://coder-coder.com/gulp-4-walk-through).
 
 ## Quickstart guide
 
