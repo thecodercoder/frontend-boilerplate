@@ -1,0 +1,28 @@
+h1, h2, h3 {
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 2rem;
+
+    @media #{$mq-1000-up}{
+        font-size: 3rem;
+    }
+}
+
+h2 {
+    font-size: 1.5rem;
+
+    @media #{$mq-1000-up}{
+        font-size: 2rem;
+    }
+}
+
+h3 {
+    font-size: 1.25rem;
+
+    @media #{$mq-1000-up}{
+        font-size: 1.5rem;
+    }
+}

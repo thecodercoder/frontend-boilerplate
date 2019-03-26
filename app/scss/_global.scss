@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;   
+}
+
+body {
+    padding: 20px;
+    background-color: $ltGray;
+    color: $black;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.3;
+
+    @media #{$mq-1000-up}{
+        padding: 1.5rem;
+    }
+}
+
+main {
+    padding: 20px;
+    background-color: $white;
+    border-radius: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    @media #{$mq-1000-up}{
+        display: flex;
+        padding: 1.5rem;
+    }
+}
+
+.content {
+    
+    @media #{$mq-1000-up}{
+        flex: 3;
+    }
+}
+
+aside {
+
+    @media #{$mq-1000-up}{
+        flex: 1;
+    }
+}
