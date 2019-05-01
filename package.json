@@ -21,15 +21,15 @@
   },
   "homepage": "https://github.com/thecodercoder/frontend-boilerplate#readme",
   "devDependencies": {
+    "gulp": "4.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-sass": "^4.0.1",
+    "gulp-postcss": "^8.0.0",
     "autoprefixer": "^9.5.0",
     "cssnano": "^4.1.10",
-    "gulp": "4.0.0",
     "gulp-concat": "^2.6.1",
-    "gulp-postcss": "^8.0.0",
-    "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.0.1",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.1"
+    "gulp-uglify": "^3.0.1",
+    "gulp-replace": "^1.0.0"
   },
   "dependencies": {}
 }
