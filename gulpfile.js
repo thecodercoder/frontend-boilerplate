@@ -52,7 +52,8 @@ function cacheBustTask(){
 // Watch task: watch SCSS and JS files for changes
 // If any change, run scss and js tasks simultaneously
 function watchTask(){
-    watch([files.scssPath, files.jsPath], 
+    watch([files.scssPath, files.jsPath],
+        {interval: 1000, usePolling: true}, //Makes docker work
         series(
             parallel(scssTask, jsTask),
             cacheBustTask
