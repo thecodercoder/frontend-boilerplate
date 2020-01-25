@@ -42,8 +42,8 @@ function jsTask(){
 }
 
 // Cachebust
-var cbString = new Date().getTime();
 function cacheBustTask(){
+    var cbString = new Date().getTime();
     return src(['index.html'])
         .pipe(replace(/cb=\d+/g, 'cb=' + cbString))
         .pipe(dest('.'));
@@ -52,7 +52,8 @@ function cacheBustTask(){
 // Watch task: watch SCSS and JS files for changes
 // If any change, run scss and js tasks simultaneously
 function watchTask(){
-    watch([files.scssPath, files.jsPath], 
+    watch([files.scssPath, files.jsPath],
+        {interval: 1000, usePolling: true}, //Makes docker work
         series(
             parallel(scssTask, jsTask),
             cacheBustTask
