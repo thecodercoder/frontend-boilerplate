@@ -8,7 +8,7 @@ I also wrote a rather detailed walkthrough on how to get up and running with Gul
 
 You can read that on my blog [here](https://coder-coder.com/gulp-4-walk-through).
 
-## Quickstart guide
+##Quickstart guide
 
 * Clone or download this Git repo onto your computer.
 * Install [Node.js](https://nodejs.org/en/) if you don't have it yet.
