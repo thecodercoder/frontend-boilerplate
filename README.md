@@ -15,7 +15,7 @@ You can read that on my blog [here](https://coder-coder.com/gulp-4-walk-through)
 * Run `npm install`
 * Run `gulp` to run the default Gulp task
 
-In this proejct, Gulp is configured to run the following functions:
+In this project, Gulp is configured to run the following functions:
 
 * Compile the SCSS files to CSS
 * Autoprefix and minify the CSS file
